@@ -1,9 +1,7 @@
 # C# Error Handling — Beyond try/catch
 
 Most developers use `try/catch`.
-Very few design error handling as a system.
-
-This repository demonstrates how to move from basic exception handling to structured, production-ready error design, using C# as a reference implementation.
+Very few design error handling as a system. This repository demonstrates how to move from basic exception handling to structured, production-ready error design, using C# as a reference implementation.
 
 ---
 
