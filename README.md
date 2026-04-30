@@ -1,7 +1,7 @@
 # C# Error Handling — Beyond try/catch
 
 Most developers use `try/catch`.
-Very few design error handling as a system. This repository demonstrates how to move from basic exception handling to structured, production-ready error design, using C# as a reference implementation.
+Very few design error handling as a system. This repository demonstrates how to move from basic exception handling to structured, production-ready error design to help determine the error roots faster, using C# as a reference implementation.
 
 ---
 
@@ -65,68 +65,6 @@ src/
  └── Presentation/
 ```
 
----
-
-## Example
-
-```csharp
-try
-{
-    ProcessData();
-}
-catch (Exception ex)
-{
-    ErrorHandler.Handle(ex, "Main execution");
-}
-```
-
----
-
-## Language-Agnostic Concept
-
-Although implemented in C#, the same principles apply across languages:
-
-* Java
-* Python
-* Node.js
-* Go
-
-Error handling is a design concern, not a syntax feature.
-
----
-
-## Common Anti-Patterns
-
-```csharp
-catch (Exception)
-{
-    // ignored
-}
-```
-
-```csharp
-throw ex; // resets stack trace
-```
-
-```csharp
-Console.WriteLine(ex.Message); // no logging or context
-```
-
----
-
-## Key Takeaway
-
-A try/catch block is not a strategy. It is a tool.
-
-Well-designed systems make failures visible, meaningful, and manageable.
-
----
-
-## Related Article
-
-“You’re Not Designing Error Handling — You’re Just Catching Exceptions”
-
----
 
 ## Contributing
 
@@ -134,6 +72,3 @@ Contributions are welcome. Suggestions for improvements or additional patterns a
 
 ---
 
-## Final Note
-
-Failures are inevitable. Good design determines how well your system handles them.
