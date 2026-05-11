@@ -1,0 +1,8 @@
+id,name,email,age,amount
+1,Amina,amina@example.com,28,120.50
+2,Omar,omar@example.com,34,89.99
+3,Lina,lina@example.com,not_available,45.00
+4,Fahad,fahad@example.com,41,invalid_amount
+5,Noura,noura@example.com,25,210.00
+6,Khalid,khalid@example.com,,75.25
+7,Sara,sara@example.com,30,150.00
